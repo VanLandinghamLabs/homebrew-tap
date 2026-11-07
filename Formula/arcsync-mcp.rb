@@ -1,29 +1,29 @@
 class ArcsyncMcp < Formula
   desc "MCP server giving coding agents ArcSync architecture graphs"
   homepage "https://arcsync.dev/docs/mcp"
-  version "0.3.7"
+  version "0.3.8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/VanLandinghamLabs/arcsync-mcp/releases/download/v0.3.7/arcsync-mcp-0.3.7-darwin-arm64.tar.gz"
-      sha256 "df2507308ec8337c810569081349b8b3d988cc3bfb60fe4f4f8ecec29fac990a"
+      url "https://github.com/VanLandinghamLabs/arcsync-mcp/releases/download/v0.3.8/arcsync-mcp-0.3.8-darwin-arm64.tar.gz"
+      sha256 "8fb519b57834be446f1958f256f2fb202e4343650798a0eeb25169efd5ca9332"
     end
     on_intel do
-      url "https://registry.npmjs.org/arcsync-mcp/-/arcsync-mcp-0.3.7.tgz"
-      sha256 "3415b410e4c0eb2a7c4454516eb034d09e7985ebd5e8327a827936d4797b559d"
+      url "https://registry.npmjs.org/arcsync-mcp/-/arcsync-mcp-0.3.8.tgz"
+      sha256 "da6ba7972059fe8c05ac032c6499d0783e479fe1fdfa15907b695c99b0ec9b35"
       depends_on "node"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/VanLandinghamLabs/arcsync-mcp/releases/download/v0.3.7/arcsync-mcp-0.3.7-linux-arm64.tar.gz"
-      sha256 "18e74ca2d9910a78fcfff95d762f20568d0bad3e3442236ca1893b5575693d08"
+      url "https://github.com/VanLandinghamLabs/arcsync-mcp/releases/download/v0.3.8/arcsync-mcp-0.3.8-linux-arm64.tar.gz"
+      sha256 "b2fc912aa40f29ad113b790dc9ac0dda640df45e8691384073a530eae6001714"
     end
     on_intel do
-      url "https://github.com/VanLandinghamLabs/arcsync-mcp/releases/download/v0.3.7/arcsync-mcp-0.3.7-linux-x64.tar.gz"
-      sha256 "9d1c19567b04d8bbd2f585e93ca332f3f4d7e52b9b526b638c71070467d49ef6"
+      url "https://github.com/VanLandinghamLabs/arcsync-mcp/releases/download/v0.3.8/arcsync-mcp-0.3.8-linux-x64.tar.gz"
+      sha256 "1e4d5943d6487b61d0a74289d48e825e3effe1af1f9c8f8b76c75602e73903fd"
     end
   end
 
